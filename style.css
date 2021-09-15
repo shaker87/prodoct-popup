@@ -1,0 +1,147 @@
+
+html,body{
+    font-family: "Roboto",sans-serif;
+}
+.card-popup{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 1px 15px 3px rgb(0 0 0 / 28%);
+    padding: 10px 0px;
+}
+
+.card-popup.show{
+    visibility: visible;
+    opacity: 1;
+}
+.close{
+    position: absolute;
+    top: 6%;
+    right: 4%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.card-header{
+    background-color: #BE1E40;
+    color: #fff;
+    text-align: center;
+}
+.card-header h1{
+    margin-bottom: 0px;
+    letter-spacing: 4px;
+}
+
+.card-left-content, .card-right-content{
+    padding: 10px 25px;
+}
+.card-left-content{
+    text-align: center;
+}
+.card-left-header h4{
+    font-size: 40px;
+    color: #152131;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.card-left-header p{
+    font-size: 20px;
+    color: #152131;
+    font-weight: 400;
+}
+
+.card-product-price{
+    display: flex;
+    justify-content: center;
+}
+.price{
+    margin: 10px 10px 0px 10px;
+}
+.price p{
+    font-size: 20px;
+    color: #152131;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.price p span{
+    display: block;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.card-right-header p{
+    font-size: 20px;
+    color: #332c2c;
+}
+
+.card-right-header p span{
+    font-size: 22px;
+    font-weight: 500;
+    color: #152131;
+}
+
+.card-right-product-price, .card-right-minutes-left{
+    text-align: center;
+}
+.card-right-product-price{
+    margin: 38px 0px;
+}
+.card-right-product-price h2{
+    font-size: 50px;
+    color: #152131;
+    font-weight: 700;
+}
+.card-right-product-price h2 span{
+    font-size: 60px;
+    color: #EC0101;
+}
+.card-right-product-price p{
+    font-size: 25px;
+    color: #152131;
+}
+
+.card-right-minutes-left p{
+    font-size: 22px;
+    color: #152131;
+    letter-spacing: 1px;
+}
+
+.timer{
+    background-color: #EEEEEE;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.purchase-btn{
+    display: block;
+    padding: 20px 5px;
+    background-color: #FFBE0B;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.purchase-btn:hover{
+    color: #000;
+}
+
+.card-bottom{
+    text-align: center;
+}
+.current-page{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
