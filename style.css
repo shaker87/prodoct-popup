@@ -35,26 +35,30 @@ html,body{
 }
 .card-header h1{
     margin-bottom: 0px;
-    letter-spacing: 4px;
+    font-size: 36px;
+    letter-spacing: 3px;
 }
 
 .card-left-content, .card-right-content{
-    padding: 10px 25px;
+    padding: 5px 15px;
 }
+
 .card-left-content{
     text-align: center;
 }
 .card-left-header h4{
-    font-size: 40px;
+    font-size: 30px;
     color: #152131;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
 .card-left-header p{
-    font-size: 20px;
+    font-size: 17px;
     color: #152131;
     font-weight: 400;
+    margin-bottom: 3px;
 }
 
 .card-product-price{
@@ -65,24 +69,24 @@ html,body{
     margin: 10px 10px 0px 10px;
 }
 .price p{
-    font-size: 20px;
+    font-size: 18px;
     color: #152131;
     font-weight: 400;
     margin-bottom: 0;
 }
 .price p span{
     display: block;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
 }
 
 .card-right-header p{
-    font-size: 20px;
+    font-size: 18px;
     color: #332c2c;
 }
 
 .card-right-header p span{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     color: #152131;
 }
@@ -91,24 +95,24 @@ html,body{
     text-align: center;
 }
 .card-right-product-price{
-    margin: 38px 0px;
+    margin: 20px 0px;
 }
 .card-right-product-price h2{
-    font-size: 50px;
+    font-size: 40px;
     color: #152131;
     font-weight: 700;
 }
 .card-right-product-price h2 span{
-    font-size: 60px;
+    font-size: 50px;
     color: #EC0101;
 }
 .card-right-product-price p{
-    font-size: 25px;
+    font-size: 20px;
     color: #152131;
 }
 
 .card-right-minutes-left p{
-    font-size: 18px;
+    font-size: 17px;
     color: #152131;
     letter-spacing: 1px;
 }
@@ -126,7 +130,7 @@ html,body{
     padding: 15px 5px;
     background-color: #FFBE0B;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     color: #000;
     text-decoration: none;
     font-weight: 700;
