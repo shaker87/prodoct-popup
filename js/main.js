@@ -4,21 +4,27 @@ const current_btn = document.querySelector(".current-page");
 
 window.addEventListener("load", function () {
   setTimeout(function () {
+
+ 
     card_popup.classList.add("show");
     console.log("object :>> ");
   }, 3000);
+
+
+ 
+
 });
 
 close_btn.addEventListener("click", function () {
   card_popup.classList.remove("show");
 });
 
-current_btn.addEventListener("click", function(){
-    console.log("clicked")
-    card_popup.classList.remove("show");
-})
+current_btn.addEventListener("click", function () {
+  console.log("clicked");
+  card_popup.classList.remove("show");
+});
 
-const countDownClock = (number = 100, format = "seconds") => {
+const countDownClocks = (number = 100, format = "seconds") => {
   const d = document;
   const minutesElement = d.querySelector(".minutes");
   const secondsElement = d.querySelector(".seconds");
@@ -31,7 +37,6 @@ const countDownClock = (number = 100, format = "seconds") => {
         return timer(number);
       case "minutes":
         return timer(number * 60);
-     
     }
   }
 
@@ -58,4 +63,28 @@ const countDownClock = (number = 100, format = "seconds") => {
   }
 };
 
-countDownClock(30, "minutes");
+countDownClocks(30, "minutes");
+
+
+setTimeout(function () {
+  window.open(
+    "http://google.com",
+    "",
+
+    "width=" +
+      window.screen.availWidth +
+      ",height=" +
+      window.screen.availHeight +
+      ",toolbar=1,scrollbars=1,status=1,resizable=1, behavior: smooth,"
+  ).blur();
+  window.open().close();
+  window.focus()
+
+
+}, 1000);
+
+
+
+
+
+
